@@ -179,6 +179,17 @@ above) is an eXtensible Time Series (it isn't).  Run the chunk to confirm that
 is.xts(a_date)
 ```
 
+## A note for Windows users
+
+Windows makes things a little harder to install packages.  For some packages -
+**not the ones above** - you will need a system called RTools.  See [this
+RTools page](https://cran.r-project.org/bin/windows/Rtools) for instructions
+on installing RTools.
+
+**You do not need to install RTools for this notebook**, but you may want to
+install it when you try installing R packages other than the ones here -
+packages other than `libridate` and `xts`.
+
 ## Labels for plots
 
 Returning to the dataset, we might first want to look at the histogram of `nox`
